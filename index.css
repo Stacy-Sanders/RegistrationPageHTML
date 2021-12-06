@@ -1,0 +1,51 @@
+nav {
+    height: 2.5rem;
+    background-color: white;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    margin: 0.25rem;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom right, cyan, blue, magenta);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}    
+
+form {
+    margin: 5rem auto;
+    width: 20%;
+    background-color: white;
+    border: medium solid black;
+    border-radius: 10px;
+}
+
+.navLink {
+    background-color: #88f;
+    color: white;
+    float: right;
+    padding: 0.5rem 1rem; /* TRBL */
+    text-decoration: none;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+.round {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: #88f;
+    color: white;
+}
